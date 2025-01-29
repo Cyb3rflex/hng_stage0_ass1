@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="profile-card">
+      <img
+        src="profile.jpg"
+        alt="Profile Picture"
+        data-testid="profilePicture" />
+      <h1 data-testid="fullName">Abdulmuheez (Cyberflex)</h1>
+      <p data-testid="jobTitle">Frontend Developer</p>
+      <p data-testid="shortBio">
+        I am a Frontend developer in the field of front-end development, eager
+        to learn and grow. I joined the HNG Internship to build upon my
+        knowledge of HTML, CSS, and JavaScript while gaining hands-on experience
+        in web development. The program offers an incredible opportunity to
+        improve my skills, collaborate with talented professionals, and work on
+        real-world projects. I am excited to contribute, learn from others, and
+        eventually pursue a successful career in front-end development.
+      </p>
+      <p data-testid="currentLocation">Lagos, Nigeria</p>
+      <a href="mailto:your-email@example.com" data-testid="emailAddress"
+        >abdulmuheezq@gmail.com</a
+      >
+      <div class="social-links" data-testid="socialLinks">
+        <a href="https://github.com/cyb3rflex" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/Abdulmuheez" target="_blank"
+          >LinkedIn</a
+        >
+        |
+        <a href="https://twitter.com/cyb3rflex" target="_blank">Twitter</a>
+      </div>
+      <p data-testid="currentTimeUTC" id="utc-time">UTC Time:</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
